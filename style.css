@@ -175,7 +175,7 @@ nav .container main .menu img {
 }
 .section2 main .section2-card h1 {
   font-family: "Crimson Text", serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 @media (max-width: 769px) {
   .section2 main .section2-card h1 {
@@ -184,6 +184,12 @@ nav .container main .menu img {
 }
 .section2 main .section2-card p {
   font-size: larger;
+  width: 35%;
+}
+@media (max-width: 769px) {
+  .section2 main .section2-card p {
+    width: 100%;
+  }
 }
 .section2 main .section2-card .partners-logos {
   display: flex;
@@ -224,7 +230,7 @@ nav .container main .menu img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 .section3 .container3 main {
   display: grid;
@@ -282,6 +288,7 @@ nav .container main .menu img {
   font-size: large;
   background-color: black;
   color: white;
+  font-family: "Work Sans", sans-serif;
 }
 
 .section4 {
@@ -294,7 +301,7 @@ nav .container main .menu img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 80px 0px;
+  margin: 80px 20px;
 }
 @media (min-width: 1280px) {
   .section4 .container4 {
@@ -303,7 +310,7 @@ nav .container main .menu img {
 }
 @media (max-width: 769px) {
   .section4 .container4 {
-    margin: 10px 0;
+    margin: 10px 20px;
   }
 }
 .section4 .container4 main {
@@ -316,7 +323,7 @@ nav .container main .menu img {
   .section4 .container4 main {
     display: flex;
     flex-direction: column-reverse;
-    margin: 10px;
+    margin: 10px 0;
   }
 }
 .section4 .container4 main .container4-card {
@@ -357,6 +364,7 @@ nav .container main .menu img {
   font-size: large;
   background-color: black;
   color: white;
+  font-family: "Work Sans", sans-serif;
 }
 .section4 .container4 main .container4-img {
   display: flex;
@@ -364,6 +372,87 @@ nav .container main .menu img {
 }
 .section4 .container4 main .container4-img img {
   width: 100%;
+}
+
+.section5 {
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  font-family: "Work Sans", sans-serif;
+}
+.section5 .container {
+  border: 1px solid;
+  flex-basis: 1280px;
+  margin: 50px 10px;
+}
+@media (min-width: 1280px) {
+  .section5 .container {
+    max-width: 1280px;
+  }
+}
+.section5 .container main .section5-card {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  row-gap: 20PX;
+}
+.section5 .container main .section5-card h4 {
+  color: #74C69D;
+  letter-spacing: 6px;
+}
+.section5 .container main .section5-card h2 {
+  font-size: 3rem;
+  font-family: "Crimson Text", serif;
+}
+.section5 .container main .section5-card h5 {
+  border: 1px solid;
+  font-size: larger;
+  text-align: center;
+  font-weight: 400;
+  width: 35%;
+}
+.section5 .container main .section5-card .teams-cards {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  width: 100%;
+}
+@media (max-width: 1025px) {
+  .section5 .container main .section5-card .teams-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+  }
+}
+.section5 .container main .section5-card .teams-cards div {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  box-shadow: 0px 0px 15px -5px;
+  row-gap: 10px;
+  padding: 20px 40px;
+}
+.section5 .container main .section5-card .teams-cards div h1 {
+  font-family: "Crimson Text", serif;
+}
+.section5 .container main .section5-card button {
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: large;
+  padding: 20px 40px;
+  font-family: "Work Sans", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

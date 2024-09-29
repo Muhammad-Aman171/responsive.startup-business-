@@ -375,15 +375,13 @@ nav .container main .menu img {
 }
 
 .section5 {
-  border: 1px solid;
   display: flex;
   justify-content: center;
   font-family: "Work Sans", sans-serif;
 }
 .section5 .container {
-  border: 1px solid;
   flex-basis: 1280px;
-  margin: 50px 10px;
+  margin: 0px 10px;
 }
 @media (min-width: 1280px) {
   .section5 .container {
@@ -391,7 +389,6 @@ nav .container main .menu img {
   }
 }
 .section5 .container main .section5-card {
-  border: 1px solid;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -408,14 +405,17 @@ nav .container main .menu img {
   font-family: "Crimson Text", serif;
 }
 .section5 .container main .section5-card h5 {
-  border: 1px solid;
   font-size: larger;
   text-align: center;
   font-weight: 400;
   width: 35%;
 }
+@media (max-width: 769px) {
+  .section5 .container main .section5-card h5 {
+    width: 100%;
+  }
+}
 .section5 .container main .section5-card .teams-cards {
-  border: 1px solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -429,7 +429,16 @@ nav .container main .menu img {
     justify-content: center;
     align-items: center;
     width: 60%;
-    gap: 20px;
+    gap: 50px;
+  }
+}
+@media (max-width: 769px) {
+  .section5 .container main .section5-card .teams-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 .section5 .container main .section5-card .teams-cards div {
@@ -442,6 +451,15 @@ nav .container main .menu img {
   row-gap: 10px;
   padding: 20px 40px;
 }
+@media (max-width: 769px) {
+  .section5 .container main .section5-card .teams-cards div {
+    display: flex;
+    align-items: center;
+  }
+}
+.section5 .container main .section5-card .teams-cards div img {
+  display: flex;
+}
 .section5 .container main .section5-card .teams-cards div h1 {
   font-family: "Crimson Text", serif;
 }
@@ -453,6 +471,69 @@ nav .container main .menu img {
   font-size: large;
   padding: 20px 40px;
   font-family: "Work Sans", sans-serif;
+}
+
+footer {
+  background-color: #74C69D;
+  padding: 40px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+@media (max-width: 769px) {
+  footer {
+    padding: 40px 10px;
+  }
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media (min-width: 1280px) {
+  footer .container {
+    max-width: 1280px;
+  }
+}
+footer .container main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  row-gap: 20px;
+}
+@media (max-width: 769px) {
+  footer .container main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+}
+@media (max-width: 525px) {
+  footer .container main {
+    width: 100%;
+  }
+}
+footer .container main .social-media {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 25px;
+}
+@media (max-width: 769px) {
+  footer .container main .social-media {
+    width: 100%;
+  }
+}
+footer .container main p {
+  font-size: larger;
+}
+@media (max-width: 769px) {
+  footer .container main p {
+    font-size: large;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

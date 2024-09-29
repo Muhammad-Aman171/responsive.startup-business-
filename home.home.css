@@ -67,6 +67,10 @@ nav .container main .nav-pages ul li {
   list-style: none;
   font-size: larger;
 }
+nav .container main .nav-pages ul li a {
+  color: white;
+  text-decoration: none;
+}
 nav .container main .menu img {
   height: 4rem;
 }
@@ -536,4 +540,4 @@ footer .container main p {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=home.home.css.map */

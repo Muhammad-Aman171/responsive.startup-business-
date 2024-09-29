@@ -66,6 +66,10 @@ nav {
                     flex-basis: 300px;
 
                     li {
+                        a{
+                            color: white;
+                            text-decoration: none;
+                        }
                         list-style: none;
                         font-size: larger;
                     }
